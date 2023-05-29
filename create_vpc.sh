@@ -1,4 +1,5 @@
 #!/bin/bash
+# Script para crear una vpc con 6 subredes (3 privadas, 3 publicas), asociando un igw a la route table por defecto de la VPC
 
 # Variables de configuración
 vpc_cidr_block="10.0.0.0/16"
